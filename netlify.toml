@@ -1,0 +1,6 @@
+[build]
+publish = "public"
+command = "hugo --gc --minify"
+
+[template.environment]
+HUGO_PARAMS_GTMTAGID="Change me for your google tag manager id"
