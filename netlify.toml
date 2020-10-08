@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo --gc --minify"
+command = "env HUGO_PARAMS_GTMTAGID=$HUGO_PARAMS_GTMTAGID hugo --gc --minify"
 
-[template.environment]
-HUGO_PARAMS_GTMTAGID="Change me for your google tag manager id"
+[context.production.environment]
+HUGO_VERSION = "0.74.3"
