@@ -1,7 +1,8 @@
+baseURL = "/"
 languageCode = "en-us"
 title = "Awesome Lighting Inc."
 theme = "hugo-shopping-product-catalogue-simple"
 themesDir = "./themes"
 [Params]
 description = ""
-GTMTAGID=""
+GTMTAGID="GoogleAnalytics"
